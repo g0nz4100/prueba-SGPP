@@ -1,0 +1,110 @@
+/* ESTILOS RESPONSIVOS PARA MÓVILES */
+
+@media (max-width: 768px) {
+    /* Navbar responsive */
+    .navbar-brand img {
+        height: 40px !important;
+    }
+    
+    .navbar-brand h4 {
+        font-size: 16px !important;
+    }
+    
+    .navbar-brand small {
+        font-size: 10px !important;
+    }
+
+    /* Hexágonos del menú más pequeños */
+    .hexagon-nav {
+        gap: 5px !important;
+    }
+
+    /* Hero section */
+    #inicio h1 {
+        font-size: 1.8rem !important;
+    }
+
+    #inicio .lead {
+        font-size: 0.9rem !important;
+    }
+
+    .btn-lg {
+        padding: 10px 20px !important;
+        font-size: 14px !important;
+    }
+
+    /* Panal de abejas responsive */
+    .honeycomb-bootstrap {
+        transform: scale(0.6) !important;
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+    }
+
+    .hero-visual {
+        margin-top: 0 !important;
+    }
+
+    /* Productos */
+    #productos h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .card-body h4 {
+        font-size: 1rem !important;
+    }
+
+    .display-4 {
+        font-size: 2rem !important;
+    }
+
+    /* Footer */
+    footer {
+        padding: 30px 15px !important;
+    }
+
+    .footer-section h3 {
+        font-size: 18px !important;
+    }
+
+    .contact-person {
+        padding: 10px !important;
+    }
+
+    /* Flores y abejas más pequeñas */
+    .flower {
+        font-size: 25px !important;
+    }
+
+    .bee-body {
+        font-size: 20px !important;
+    }
+
+    /* Modales responsive */
+    .modal-body {
+        padding: 15px !important;
+    }
+
+    .modal-body h5 {
+        font-size: 1rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Extra pequeño para móviles muy pequeños */
+    .container {
+        padding: 10px !important;
+    }
+
+    #inicio h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .honeycomb-bootstrap {
+        transform: scale(0.4) !important;
+    }
+
+    .btn-lg {
+        padding: 8px 15px !important;
+        font-size: 12px !important;
+    }
+}
